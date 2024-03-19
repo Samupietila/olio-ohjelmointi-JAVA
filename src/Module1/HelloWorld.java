@@ -8,6 +8,6 @@ public class HelloWorld {
         System.out.println("Tell me your name:");
         String name = scanner.nextLine();
 
-        System.out.println("Good morning " + name + "!")
+        System.out.println("Good morning " + name + "!");
     }
 }
