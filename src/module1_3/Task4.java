@@ -6,7 +6,9 @@ public class Task4 {
         Scanner sc = new Scanner(System.in);
         Random random = new Random();
         System.out.println("Tervetuloa kertotaulukokeeseen!");
-        int correctAnswers = 0;
+        int correctAnswers;
+        do {
+            correctAnswers = 0;
         for (int i = 0; i <= 9; i++) {
 
             int x = random.nextInt(10) + 1;
@@ -23,5 +25,12 @@ public class Task4 {
             }
         }
         System.out.println("Koe on nyt päättynyt. Sait " + correctAnswers + "/10.");
+        if (correctAnswers == 10) {
+            System.out.println("KOE LÄPÄISTY!! ONNEKSI OLKOON!!");
+        }
+        else {
+            System.out.println("Et saanut tarpeeksi pisteitä. Aloitetaan alusta.");
+        }
+    } while (correctAnswers != 10);
     }
 }
