@@ -19,7 +19,11 @@ public class DictionaryController {
     }
 
     public void getMeaning(String word) {
-        view.setMeaning(dictionary.getMeaning(word));
-
+        if (dictionary.getMeaning(word) == null) {
+            view.setMeaning("Word not found");
+        }
+        else {
+            view.setMeaning(dictionary.getMeaning(word));
+        }
     }
 }
