@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$/olio-ohjelmointi-Maven" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/olio-ohjelmointi-Maven/src/main/module6_2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/olio-ohjelmointi-Maven/src/main/module6_3" isTestSource="false" />
+    </content>
+  </component>
+</module>
